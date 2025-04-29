@@ -45,7 +45,9 @@ The vessel-based sampling comprises:
 
 1) Some station-specific samples (i.e. Larval Fish)
 
-As scientists, Claire and I are particularily interested in the state and trends of the phytoplankton and zooplankton, but we use the physical and chemical observations to interpret the plankton. <br>
+More information about the network, and how it was setup can be found in this [PloS ONE article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0113652).
+
+As scientists, Claire and I are particularly interested in the state and trends of the phytoplankton and zooplankton, but we use the physical and chemical observations to interpret the plankton. <br>
 
 # Why is plankton important?
 
