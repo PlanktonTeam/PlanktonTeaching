@@ -87,11 +87,11 @@ The statistical significance of the annual trend from a linear model of form _lm
 
 1) Has this trend changed over time since IMOS started sampling in 2009? Change the date-slider to show the first 5 years only. Was the trend the same? What about just the last 5 years?
 
-1) Still in the `Zooplankton Tab`, switch to the `Species Information` and compare the distribution of 2 species of Copepod: _Calanus simillimus_ and _Calanus Australis_. From their distribution, what can you deduce about their temperature preferences? Have a look at the `Species Temperature Index Graphs` and see if your suspicions are correct. 
+1) Still in the `Zooplankton Tab`, switch to the `Species Information` and compare the distribution of 2 species of Copepod: _Calanus simillimus_ and _Calanus australis_. From their distribution, what can you deduce about their temperature preferences? Have a look at the `Species Temperature Index Graphs` and see if your suspicions are correct. 
 
 1) Do these species exhibit Diel-Vertical Migration? The DVM plots are generated from the Continuous Plankton Recorder (CPR) observations. The CPR is towed at 7-10 m depth for multiple-days so species that are observed in higher abundances at night are assumed to be under taking DVM and moving into the surface ocean at night.
 
-1) Now lets look at 3 species of krill: _Euphausia Superba_, _Euphausia similis_ and _Euphausia recurva_. Unfortunately we don't have enough information to calculate their Species Temperature Index plots, but what can you deduce about their temperature preferences from their distributions? 
+1) Now lets look at 3 species of krill: _Euphausia superba_, _Euphausia similis_ and _Euphausia recurva_. Unfortunately we don't have enough information to calculate their Species Temperature Index plots, but what can you deduce about their temperature preferences from their distributions? 
 
 1) In the `Environmental Data Tab`, go to the `Biogeochemistry` and select `Maria Island` and `DIN`. This is the Dissolved Inorganic Nitrogen. When do nutrients start accumulating in the water column? Now go back to the `Phytoplankton Tab` and look at the seasonal cycle of `Phytoplankton Abundance` or `Phytoplankton Biomass`. What do you notice about the blooms in phytoplankton? Can you explain this given what you have learnt today about seasonality in sub-tropical and temperate regions?
 
