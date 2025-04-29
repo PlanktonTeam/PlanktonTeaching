@@ -17,11 +17,11 @@ page-layout: full
 :::
 :::::
 
+[Day 1: Exploring the Australian Marine Environment - The Biological Ocean Observer]{style="font-size:28px; color:#1162a5ff"}
+
 [**Authors:** Jason D. Everett\* (UQ, CSIRO, UNSW) and Claire H. Davies (CSIRO)]{style="font-size:16px;"}
 
 [\*Jason.Everett\@uq.edu.au]{style="font-size:16px;"}
-
-[Day 1: Exploring the Australian Marine Environment - The Biological Ocean Observer]{style="font-size:28px; color:#1162a5ff"}
 
 # IMOS National Reference Stations
 
@@ -55,7 +55,7 @@ Plankton impacts human health. Some phytoplankton species produce toxins and for
 
 Plankton infuence the pace and extent of climate change. Plankton shunts carbon from the surface to the deep ocean by fixing carbon through photosynthesis. This carbon is transferred to zooplankton grazers, sinking to the ocean floor as faeces or dead carcasses, where it can be removed from the atmosphere for thousands to millions of years – a process known as the biological pump. The type of phytoplankton present can have a significant influence on the efficiency of carbon export, as larger species sink more quickly. Movement of carbon to the deep ocean by plankton has contributed to the ocean uptake of 40% of the carbon dioxide produced by people – it would be much warmer if this carbon had not been taken up by the ocean. Over geological time, the accumulation of carbon from plankton on the sea floor has formed the oil and natural gas deposits we use today.
 
-Without plankton, the Earth would be warmer and devoid of large fish and charismatic animals. In fact, much of the economic value of the oceans, estimated at US\$21 trillion per annum and similar to the global gross national product (Costanza et al. 1997), is provided by plankton through fishery production, nutrient cycling, gas production and climate regulation.
+Without plankton, the Earth would have 50% less oxygen, be warmer and devoid of large fish and charismatic animals. In fact, much of the economic value of the oceans, estimated at US\$21 trillion per annum and similar to the global gross national product (Costanza et al. 1997), is provided by plankton through fishery production, nutrient cycling, gas production and climate regulation. The collapse of plankton populations would lead to a catastrophic disruption of marine ecosystems and have devastating consequences for marine life and human food supplies.
 
 
 # The Biological Ocean Observer
@@ -66,7 +66,7 @@ The [Biological Ocean Observer](https://shiny.csiro.au/BioOceanObserver/) is an 
 
 Its goal is to Integrate, Analyse and Visualise data collected by the Integrated Marine Observing System (IMOS). It aims to enhance the availability and understanding of biological data and make it accessible to broader and non-specialist audiences in order to accelerate the next generation of scientific insights. 
 
-Under the hood, the Biological Ocean Observer is powered by the R package _planktonr_. This means that all visualisation and analysis undertaken within the Biolgical Ocean Observer can also be compelted offline in the R environment. This gives extra power to skilled users who wish to update plots or further wrangle datasets in ways not possibly within the Shiny App. Besides students and scientists, one key audience of this tool is policy makers and managers at local, state and national levels. The outputs from the Biological Ocean Observer have already been used in National and State based environmental reporting such as the State of the Environment. 
+Under the hood, the Biological Ocean Observer is powered by the R package _planktonr_. This means that all visualisation and analysis undertaken within the Biolgical Ocean Observer can also be completed offline in R. This gives extra power to skilled users who wish to update plots or further wrangle datasets in ways not possibly within the Shiny App. Besides students and scientists, one key audience of this tool is policy makers and managers at local, state and national levels. The outputs from the Biological Ocean Observer have already been used in National and State based environmental reporting such as the State of the Environment. 
 
 ## Practical Questions
 In today's practical we will explore trends and patterns in the oceans around Australia using the Biological Ocean Observer. We have provided a number of small tasks to guide your exploration of the Biological Ocean Observer, and in the process, your understanding of various dynamics.
@@ -76,7 +76,7 @@ Today is intended to be an interactive learning experience, so please chat among
 1)  First switch to the `Phytoplankton Tab`. Select the `Phytoplankton Abundance` variable. What is the long-term trend at `North Stradbroke Island`, `Port Hacking` and `Maria Island`? It might be easier to visualise if you change the axes to log10. Is the trend significant?
 
 ::: {.callout-note title="Statistical Significance"}
-  The statistical significance of the annual trend from a linear model of form _lm(Values ~ Year + harmonic(Month, k = 1)_ is shown in brackets above each plot
+The statistical significance of the annual trend from a linear model of form _lm(Values ~ Year + harmonic(Month, k = 1)_ is shown in brackets above each plot. 
 :::
 
 2) Change the variable to `Phytoplankton Biomass`. Does the trend change? Why might the abundance and biomass be the same or different? What are the implications of this?
